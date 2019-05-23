@@ -1,0 +1,2570 @@
+body{
+background:url(Rustica.jpg);
+}
+
+
+header{
+    width:100%;
+  background:linear-gradient(30deg,orange,darkorange,darkorange,orange);
+    border-radius:80px;
+}
+
+#btn-menu{
+ display:none;
+    border-radius:30px;
+}
+header label{
+    display:none;
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+    border-right:1px solid #fff;
+    border-radius: 30px;
+}
+header label:hover{
+ cursor: pointer;
+background:rgba(0,0,0,0.4);
+    border-radius: 30px;
+
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding:0;
+    display:flex;
+    border-radius: 30px;
+}
+.menu li{
+border-right:1px solid #fff;
+    border-radius: 30px;
+    
+}
+    .menu li:hover{
+     background:rgba(0,0,0,0.2);
+        
+    
+    }
+
+.menu li a{
+    display: block;
+    padding: 20px 30px;
+    color:white;
+    text-decoration: none;
+    border-radius: 30px;
+}
+@media(max-width:0px){
+     
+    header label{
+    display: block;
+    }
+    
+    .menu{
+    position:absolute;
+        background:firebrick;
+        width:30%;
+        margin-left:-70%;
+        transition:all 0.8s
+            
+    }
+    .menu ul{
+        border-top:2px solid #fff;
+     
+    }
+    .menu ul{
+        flex-direction: column;
+        
+    }
+    #btn-menu:checked~.menu{
+        margin: 0;
+        
+        
+    }
+        
+    }
+ 
+
+
+
+
+
+    
+}
+.boton{
+  width:30px;
+  height:30px;
+  background-color:#03800b;
+  margin: 5px;
+  padding:10px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  font-size:11px;
+  line-height:32px;
+  text-transform: uppercase;
+  float:left;
+    font-family: cursive;
+}
+
+.boton {
+font-family: cursive;    
+font-weight: 600;
+font-size: 25px;
+color:none;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+ background:linear-gradient(30deg,orange,darkorange,darkorange,orange);
+border-color:none;
+border-width: 3px;
+border-style:none;
+border-radius:35px;
+}
+
+
+
+
+body{
+margin:0;
+}
+
+
+
+
+.container{
+    position:absolute;
+    top:0;
+    background: #222;
+    color:#fff;
+    width: 100%;
+    min-height: 100vh;
+    max-height:150vh;
+    display: flex;
+}
+
+.preloader{
+    margin:auto;
+    width: 350px;
+    height:30px;
+    background: rgba(255,255,255,0.1);
+    border-radius:30px;
+    position:relative;
+     
+}
+    .preloader p {
+    margin: 0;
+    line-height: 30px;
+    font-size:25px; 
+    font-weight: bold;
+    border-radius:30px;
+    position: absolute;
+    left: 50%;
+        transform: translateX(-50%);
+    }
+
+.preloader:before{
+    content:"";
+    position:absolute;
+    background-image:url(Rustica.jpg); 
+    width:0;
+    height: 30px;
+    animation: preloader 1s infinite;
+border-radius: 30px;   
+}
+
+.cerrar{
+    transform: translateY(-100%);
+    transition: all 0.5;
+}
+
+
+
+@keyframes preloader{
+    90%{
+        width: 100%;
+        opacity:1;
+    }
+    100%{
+        width: 100;
+        opacity:0;
+    }
+}
+
+form{
+width: 100%;
+    margin:82px;
+  
+    max-width:80px;
+    background:white;
+    padding:550px;
+    border:3px solid rgba(0,0,0,0.1);
+    
+   
+}
+    form{
+        -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  border-radius: 150px;
+  font-size:11px;
+  line-height:32px;
+  text-transform: uppercase;
+  float:left;
+        
+    }
+
+
+.contenedor{
+    background-color:snow;
+    margin:auto;
+    text-align: center;
+    border-radius:150px;
+    -webkit-border-radius:150px;
+  -moz-border-radius:150px;
+ flex: auto;
+    height:auto;
+    width:40%;
+    padding:6%;
+}
+
+
+
+.boton2 {
+    text-align: center;
+  
+ color:black;
+ background: #92c7eb;
+ background-image: url(mexico.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 50px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+.boton2:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+    
+
+.boton3 {  
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(unidos.jpg);
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ border: none;
+ padding:50px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size: 25px;
+ margin:auto;
+}
+.boton3:hover
+{
+ width: 75px;
+ height: 75px;
+}
+.boton4 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(1.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton4:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+.boton5 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(bebidas.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton5:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton6 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(Crepa2.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton6:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton7 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(pan.jpg.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton7:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+.boton8 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(pinata-cupcakes.jpeg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton8:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton9 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(naranja.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton9:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+
+
+.boton10 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(manzana.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton10:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+   
+.boton11 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(con-canela-molida.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton11:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+    
+.boton12 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(napolitano.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton12:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton13 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(pina.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton13:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+    
+.boton14 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(nutella.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton14:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+    
+
+.boton15 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(bebidas.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+.boton15:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+
+
+.boton16 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(bebidas.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton16:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+    
+
+ .boton17 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(jugon.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton17:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+       
+
+    .boton18 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(batidos.png);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton18:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+    
+
+    .boton19 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(maltadas.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton19:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+    
+
+    .boton20 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(frappe.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton20:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+
+ .boton21 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(cafe%CC%81.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton21:hover
+{    
+ width: 75px;
+ height: 75px;
+    
+}
+    
+
+    
+.boton22 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(te.jng.webp);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton22:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton23 {
+ text-align: 10px;  
+ color:black;
+ background: #92c7eb;
+ background-image: url(chocomilk.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton23:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+    
+.boton24 {
+    font-family: serif;
+ text-align:center;  
+ color:white;
+ background: #92c7eb;
+ background-image: url(1.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton24:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+    
+.boton25 {
+    
+font-family:serif;    
+ text-align:center;
+ color:white;
+ background: #92c7eb;
+ background-image: url(bebidas.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton25:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+    
+    
+    
+    
+    
+.boton26 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(jnaranja.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton26:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+       
+   .boton27 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(toronja-.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton27:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+    
+    
+    
+.boton28 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(mandarina.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton28:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+   
+.boton29 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(limon.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton29:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+   
+.boton30 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(receta-de-zumo-de-manzana-655x368.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton30:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+   
+.boton31 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(Jugo-de-pera.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton31:hover
+{    
+    
+    
+    
+ width: 75px;
+ height: 75px;
+}
+   
+
+.boton32 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(jpi%C3%B1a.png);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton32:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+   
+.boton33 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(jpi%C3%B1a.png);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton33:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+ 
+
+.boton35 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(batcoco.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton35:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+
+
+.boton36 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(bamango.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton36:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+ 
+.boton37 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(batido-de-platano.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton37:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+ 
+.boton38 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(valetudocafe-wordpress-com-1.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton38:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+ 
+.boton39 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(batido-verano.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton39:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+ 
+.boton40 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(img_como_hacer_batido_de_fresa_7521_600.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton40:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+ 
+.boton41 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(Batido-de-vainilla-con-canela.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton41:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton42 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(crepaschocolate.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton42:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+
+.boton43 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(crepacajeta.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton43:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton44 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(CREPASDEQUESOYZARZAMORA001-780x530.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton44:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton45 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(foto_0000000120151122135902.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton45:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton46 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(crepes-dulces-3.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton46:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton47 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(crepes-3.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton47:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton48 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(IMG_6965-780x530.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton48:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton49 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(malteada-de-fresa-3.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton49:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+
+.boton50 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(500xNxchocolatemilkshakemainjpg.jpg.pagespeed.ic.6CphSy1jDb.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton50:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton51 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(licuado-fresa-mango.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton51:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton52 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(licuado-platano.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton52:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton53 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(5-batidos-con-agua-de-pepino-e1539674835578.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton53:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton54 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(th5-640x426-19197.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton54:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton55 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(malteadadechocolatecremacacahuate_0.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton55:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+
+
+.boton56 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(te%20de%20limon%20FOTO%201.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton56:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+.boton57 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(durazno-te.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton57:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton58 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(TE-VERDE.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton58:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+
+
+
+.boton59 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(cafe%CC%81-negro.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton59:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+
+.boton60 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(capuchino.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton60:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton61 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(cafee-americano.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton61:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton63 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(chocomilk-vainilla.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton63:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton64 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(chocomilk-fresa.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton64:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton65 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(chocomilk.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton66:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton66 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(connchas.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton66:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton67:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton67 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(Pan-Cuernitos.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton67:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton68:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton68 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(donas1.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton68:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+
+.boton69:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton69 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(pan-elote1.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton69:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton70 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(Mermelada-fresas1-1170x782.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton70:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton71 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(receta-de-mermelada-de-pina-655x368.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton71:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+
+.boton72 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(mermelada-mango-cubana.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton72:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+
+.boton74 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(depositphotos_108030908-stock-photo-tamarind-jam-in-the-bowl.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton74:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton76 {
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(th5-640x426-8723.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton76:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+
+.boton77{
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(mermelada-de-limon.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton77:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    padding: 0;
+display: flex;
+    width:400%;
+    
+    animation: cambio 20s infinite alternate;
+    animation-timing-function:linear;
+}
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+.slider img{
+    width: 100%;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left:-200;}
+    45%{margin-left: -200%;}
+    
+    65%{margin-left:-300%;}
+    85%{margin-left:-300%;}
+    
+     105%{margin-left:-400%;}
+    125%{margin-left: -400%;}
+    
+    145%{margin-left:-500%;}
+    165%{margin-left:-500%;} 
+}
+
+.boton79{
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(../imagenes/.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton79:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+}.boton80{
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(../imagenes/.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton80:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+
+.boton81{
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(frapuccino.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton81:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+
+.boton82{
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(mandarina-frappe-victor-moreno-bms.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton82:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton83{
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(smoothiedemoras.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton83:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton84{
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(goya-frappe-de-moras-fresas-y-frambuesas-620x350.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton84:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton85{
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(gelatina_de_mango000.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton85:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+
+.boton86{
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(french_custard-360x300.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton86:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton87{
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(GELATINADEGALLETAOREO001-780x530.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton87:hover
+{    
+ width: 75px;
+ height: 75px;
+}
+
+.boton88{
+    
+font-family:serif;    
+ text-align:center;
+ color:black;
+ background: #92c7eb;
+ background-image: url(d5ba8314f59843732b14379da4fc0103_S030418_04_GELATINA_MOSAICO_DE_FRUTAS10309.jpg);
+ background-size: cover;
+ background-position: center;
+ display:flex;
+ border: none;
+ padding: 20px;
+ width: 70px;
+ border-radius: 900px;
+ height: 70px;
+ transition: all 0.5s;
+ cursor: pointer;
+ font-size:25px;
+ margin:auto    
+    
+}
+
+.boton88:hover
+{    
+ width: 75px;
+ height: 75px;
+}
